@@ -1,0 +1,17 @@
+name = "Syncer"
+uuid = "88578114-2e0c-4679-8b18-24dc4fa60bec"
+authors = ["Jonathan Doucette <jdoucette@physics.ubc.ca> and contributors"]
+version = "0.1.0"
+
+[deps]
+Comonicon = "863f3e99-da2a-4334-8734-de3dacbe5542"
+
+[compat]
+julia = "1.6"
+
+[extras]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "Random"]
