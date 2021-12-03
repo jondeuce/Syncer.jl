@@ -1,6 +1,10 @@
+"""
+$(README)
+"""
 module Syncer
 
 using Comonicon
+using DocStringExtensions
 
 """
 Simple `rsync` wrapper.
